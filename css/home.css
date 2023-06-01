@@ -1,0 +1,52 @@
+.home{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 45px;
+
+}
+
+.home img{
+    width: 100%;
+}
+
+.home .text{
+     text-align: center;
+}
+
+.home .text h1{
+   font-size: 3rem;
+   color: #fff;
+   margin: 1.6rem;
+}
+
+.home .text p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.home .text .btn{
+    display: inline-block;
+    background-color: #44E5AE;
+    color: #111;
+    padding:1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+@media (min-width:920px) {
+    .home{
+        padding: 1rem;
+       flex-direction: row;
+       gap: 50px;
+    }
+    .home img{
+        width: 40%;
+    }
+}

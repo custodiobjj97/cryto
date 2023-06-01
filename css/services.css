@@ -1,0 +1,56 @@
+.services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:url('../images/pattern-blur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services .grid-img{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.services .grid-crypt{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  padding: 2rem;
+  gap: 60px;
+}
+
+.services .box-crypt{
+    padding: 5rem 2rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+.services .box-crypt i{
+   font-size: 3rem;
+   color: #44E5AE;
+   margin-bottom: 1.6rem;
+}
+
+.services .box-crypt h3{
+    color: #44E5AE;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.services .box-crypt a{
+    background-color: #44E5AE;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    display: inline-block;
+    color: #111;
+}
+@media (min-width:920px) {
+    .services .grid-img{
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+    }
+    .services .grid-crypt{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
